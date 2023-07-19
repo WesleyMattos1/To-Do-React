@@ -53,8 +53,6 @@ function App() {
   };
 
   const addTodo = (text, category) => {
-    console.log(text);
-    console.log(category);
     const newTodos = [
       ...todos,
       {
